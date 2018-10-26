@@ -20,9 +20,15 @@ function whileLoop (num) {
 
 }
 
+var j = 0;
+ 
+function incrementVariable() {
+  j = j + 1;
+}
+
 function doWhileLoop (nA) {
   do {
-    
+    delete nA[]
   } while (array.length > 0 && incrementVariable());
   return nA
 }
