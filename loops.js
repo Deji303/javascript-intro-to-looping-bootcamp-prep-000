@@ -26,9 +26,9 @@ function incrementVariable() {
   j = j + 1;
 }
 
-function doWhileLoop (nA) {
+function doWhileLoop (onion) {
   do {
-    nA.splice(0,1);
+    onion.splice(0,1);
     incrementVariable();
     
   } while (array.length > 0 && incrementVariable());
