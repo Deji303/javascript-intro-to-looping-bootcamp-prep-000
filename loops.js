@@ -19,3 +19,9 @@ function whileLoop (num) {
   return "done"
 
 }
+
+function doWhileLoop (nA) {
+  do {
+    
+  } while 
+}
