@@ -28,7 +28,9 @@ function incrementVariable() {
 
 function doWhileLoop (nA) {
   do {
-    delete nA[]
+    delete nA[];
+    incrementVariable();
+    
   } while (array.length > 0 && incrementVariable());
   return nA
 }
