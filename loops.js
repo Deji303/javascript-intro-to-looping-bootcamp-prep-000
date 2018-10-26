@@ -23,5 +23,6 @@ function whileLoop (num) {
 function doWhileLoop (nA) {
   do {
     
-  } while 
+  } while (array.length > 0 && incrementVariable());
+  return nA
 }
