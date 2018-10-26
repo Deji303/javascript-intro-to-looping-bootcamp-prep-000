@@ -20,6 +20,7 @@ function whileLoop (num) {
 
 }
 
+
 var j = 0;
  
 function incrementVariable() {
@@ -31,6 +32,6 @@ function doWhileLoop (onion) {
     onion.splice(0,1);
     incrementVariable();
     
-  } while (array.length > 0 && incrementVariable());
-  return nA
+  } while (onion.length > 0 && incrementVariable());
+  return onion
 }
